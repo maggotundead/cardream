@@ -1,0 +1,28 @@
+$main-font: 'Inter';
+$duration: 0.3s;
+
+$black: #101010;
+$grey-dark: #1D1D1D;
+$blue: #2FA0CB;
+$blue-darker: #30A0CB;
+
+
+$text-color: $grey-dark;
+$body-bg: #fff;
+$theme-color: $blue;
+$theme-color-darker: $blue-darker;
+
+$container-inner-width: 1170px;
+$container-padding-x: 16px;
+$container-padding-x-tablet: 16px;
+$container-padding-x-mobile: 10px;
+
+$container-max-width: calc(#{$container-inner-width} + 2*#{$container-padding-x});
+$tablet-max-width: 1023px;
+$mobile-max-width: 767px;
+
+$base-line-height: 1.36;
+
+$block-offset-desktop: 100px;
+$block-offset-tablet: 80px;
+$block-offset-mobile: 64px;

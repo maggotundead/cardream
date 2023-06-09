@@ -1,0 +1,29 @@
+.swiper {
+    &-button {
+        color: $theme-color;
+        margin: 0;
+        width: 81px;
+        height: 56px;
+        border: 2px solid $theme-color;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: $duration;
+        transform: translateY(-50%);
+        background-color: #fff;
+        &:hover {
+            color: #fff;
+            border-color: $theme-color-darker;
+            background-color: $theme-color-darker;
+        }
+        &::after {
+            content: none;
+        }
+        svg {
+            width: 33px;
+            height: 16px;
+            transition: $duration;
+        }
+    }
+}

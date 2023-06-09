@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Cardream</title>
+
+
+		<link rel="stylesheet" type="text/css" href="https://cardream.in.ua/data/css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="https://cardream.in.ua/data/css/index.css">
+		<link rel="stylesheet" type="text/css" href="https://cardream.in.ua/data/css/content.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+
+			<!-- temp styles -->
+			<style>
+				header {
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					z-index: 10;
+				}
+
+				header .contact-info a {
+					display: inline-flex;
+					align-items: center;
+				}
+			</style>
+			<!-- temp styles -->
+
+			<!-- parent header -->
+			<header>
+				<div class="container">
+					<a class="logo" href="https://cardream.in.ua/ru/"><img src="https://cardream.in.ua/data/img/icons/logo.svg"></a>
+					<div class="menu">
+						<a href="https://cardream.in.ua/ru/">Главная</a> <a href="#services">Услуги</a> <a href="https://cardream.in.ua/ru/gallery/">Галерея</a>
+					</div>
+					<div class="contact-info">
+						<div>
+							<a href="tel:+380683383140"><img src="https://cardream.in.ua/data/img/icons/1kyivstar.svg"></a> <a href="tel:+380683383140">+38 (068) 338-31-40</a> <a href="viber://chat?number=%2B380683383140"><img src="https://cardream.in.ua/data/img/icons/viber.svg"></a>
+						</div>
+						<div>
+							<a href="tel:+380952594063"><img src="https://cardream.in.ua/data/img/icons/vodafone.svg"></a> <a href="tel:+380952594063">+38 (095) 259-40-63</a> <a href="viber://chat?number=%2B380952594063"><img src="https://cardream.in.ua/data/img/icons/viber.svg"></a>
+						</div>
+					</div>
+					<div class="map-info">
+						<p class="location">Киев, ул. Ревуцкого, 3</p>
+						<p class="coordinates">График работы: <span>Пн-Сб 9:00-19:00</span></p>
+					</div>
+					<div class="header__lang" style="background-color: transparent; box-shadow: unset;">
+						<p><img alt="flag" src="https://cardream.in.ua/data/img/main/ru-icon.svg">RU</p>
+						<div class="sub-lang" style="background-color: transparent; box-shadow: unset;">
+							<a href="https://cardream.in.ua/uk"><img alt="flag" src="https://cardream.in.ua/data/img/main/ua-icon.svg">UA</a>
+						</div>
+					</div>
+					<div id="sm-menu">
+						<a class="sm-menu-btn" style="background-color: transparent; box-shadow: unset;"><img src="https://cardream.in.ua/data/img/icons/sm-menu.svg"></a> <!---->
+					</div>
+					<div class="" id="mob_menu_adress">
+						<a href="#map"><img src="https://cardream.in.ua/data/img/icons/map.svg"> Киев, ул. Ревуцкого, 3</a>
+					</div>
+					<style>
+							#mob_menu_adress {
+								background-color: rgba(46, 110, 165, 0.8);
+								box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 10px 0px;
+								top: 120px;
+								order: 1;
+								right: 0px;
+								z-index: 500;
+								position: fixed;
+								padding: 10px 15px 10px 10px;
+								border-radius: 5px;
+								color: white;
+								font-size: 12px;
+								line-height: 15px;
+								display: none;
+							}
+							#mob_menu_adress img {
+								height: 12px
+							}
+							#mob_menu_adress a {
+								color: white;
+								text-decoration: none;
+								line-height: 15px;
+							}
+
+							@media screen and (max-width: 900px) {
+							#mob_menu_adress { display: block; }
+							}
+					</style>
+				</div>
+			</header>
+			<!-- end parent header -->
+
+			<!-- my html -->
+			<main>
+				<section class="block-homescreen">
+					<picture class="bg">
+						<source srcset="img/homescreen-bg-desktop.jpg" media="min-width: 768px;">
+						<source srcset="img/homescreen-bg-desktop.jpg" media="max-width: 767px;">
+						<img src="img/homescreen-bg-desktop.jpg" alt="">
+					</picture>
+					<div class="container">
+						<h1 class="block-title">
+							Штатні магнітоли
+						</h1>
+						<div class="descr">
+							Допоможемо підібрати та встановимо штатну магнітолу до Вашого автомобіля. Гарантуємо бездоганну якість виконання робіт. Працюємо з автомобілями всіх марок.
+						</div>
+						<div class="annotation">
+							Отримайте безкоштовну консультацію <br> та запишіться на встановлення
+						</div>
+
+						<button class="btn">
+							Зв’язатись з нами
+						</button>
+					</div>
+				</section>
+
+				<section class="block-logos">
+					<div class="container">
+						<div class="logos">
+							<div class="logos-inner">
+								<div class="logo">
+									<img src="img/logos/logo-audi.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-baojin.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-bmw.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-buick.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-byd.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-changan.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-chevrolet.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-mini.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-audi.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-baojin.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-bmw.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-buick.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-byd.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-changan.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-chevrolet.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-mini.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-audi.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-baojin.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-bmw.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-buick.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-byd.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-changan.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-chevrolet.png" alt="">
+								</div>
+								<div class="logo">
+									<img src="img/logos/logo-mini.png" alt="">
+								</div>
+							</div>
+						</div>
+
+						<div class="block-subtitle">
+							штатні магнітоли
+						</div>
+						<div class="block-title">
+							<span>
+								Встановлення штатних <br> магнітол для вашого авто!
+							</span>
+						</div>
+
+						<div class="descr">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+						</div>
+					</div>
+				</section>
+
+				<section class="block-advantages">
+					<picture class="bg">
+						<source srcset="img/advantages-bg-desktop.jpg" media="min-width: 768px;">
+						<source srcset="img/advantages-bg-desktop.jpg" media="max-width: 767px;">
+						<img src="img/advantages-bg-desktop.jpg" alt="">
+					</picture>
+					<div class="container">
+						<div class="block-title">
+							Порівняльна таблиця магнітол <span>TEYES</span>
+						</div>
+
+						<div class="slider">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="advantage-item">
+											<div class="advantage-item-image">
+												<img src="/img/temp/advantage-item.jpg" alt="">
+											</div>
+											<div class="advantage-item-title">
+												Магнітоли teyes
+											</div>
+											<div class="advantage-item-descr">
+												Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="advantage-item">
+											<div class="advantage-item-image">
+												<img src="/img/temp/advantage-item.jpg" alt="">
+											</div>
+											<div class="advantage-item-title">
+												Магнітоли teyes
+											</div>
+											<div class="advantage-item-descr">
+												Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="advantage-item">
+											<div class="advantage-item-image">
+												<img src="/img/temp/advantage-item.jpg" alt="">
+											</div>
+											<div class="advantage-item-title">
+												Магнітоли teyes
+											</div>
+											<div class="advantage-item-descr">
+												Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="advantage-item">
+											<div class="advantage-item-image">
+												<img src="/img/temp/advantage-item.jpg" alt="">
+											</div>
+											<div class="advantage-item-title">
+												Магнітоли teyes
+											</div>
+											<div class="advantage-item-descr">
+												Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="advantage-item">
+											<div class="advantage-item-image">
+												<img src="/img/temp/advantage-item.jpg" alt="">
+											</div>
+											<div class="advantage-item-title">
+												Магнітоли teyes
+											</div>
+											<div class="advantage-item-descr">
+												Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="advantage-item">
+											<div class="advantage-item-image">
+												<img src="/img/temp/advantage-item.jpg" alt="">
+											</div>
+											<div class="advantage-item-title">
+												Магнітоли teyes
+											</div>
+											<div class="advantage-item-descr">
+												Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-controls">
+								<div class="swiper-button swiper-button-prev">
+									<svg><use xlink:href="#slider-arrow-left"></use></svg>
+								</div>
+								<div class="swiper-button swiper-button-next">
+									<svg><use xlink:href="#slider-arrow-right"></use></svg>
+								</div>
+							</div>
+						</div>
+
+						<button class="btn">
+							Записатись на встановлення
+						</button>
+					</div>
+				</section>
+
+				<div class="section block-categories-slides">
+					<div class="container">
+						<div class="block-subtitle">
+							ГАЛЕРЕЯ
+						</div>
+
+						<div class="category">
+							<div class="block-title">
+								<span>Магнітоли</span>
+							</div>
+							<div class="slider">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="swiper-controls">
+									<div class="swiper-button swiper-button-prev">
+										<svg><use xlink:href="#slider-arrow-left"></use></svg>
+									</div>
+									<div class="swiper-button swiper-button-next">
+										<svg><use xlink:href="#slider-arrow-right"></use></svg>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category">
+							<div class="block-title">
+								<span>Магнітоли</span>
+							</div>
+							<div class="slider">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="swiper-controls">
+									<div class="swiper-button swiper-button-prev">
+										<svg><use xlink:href="#slider-arrow-left"></use></svg>
+									</div>
+									<div class="swiper-button swiper-button-next">
+										<svg><use xlink:href="#slider-arrow-right"></use></svg>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category">
+							<div class="block-title">
+								<span>Магнітоли</span>
+							</div>
+							<div class="slider">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="swiper-controls">
+									<div class="swiper-button swiper-button-prev">
+										<svg><use xlink:href="#slider-arrow-left"></use></svg>
+									</div>
+									<div class="swiper-button swiper-button-next">
+										<svg><use xlink:href="#slider-arrow-right"></use></svg>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category">
+							<div class="block-title">
+								<span>Магнітоли</span>
+							</div>
+							<div class="slider">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="swiper-controls">
+									<div class="swiper-button swiper-button-prev">
+										<svg><use xlink:href="#slider-arrow-left"></use></svg>
+									</div>
+									<div class="swiper-button swiper-button-next">
+										<svg><use xlink:href="#slider-arrow-right"></use></svg>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="category">
+							<div class="block-title">
+								<span>Магнітоли</span>
+							</div>
+							<div class="slider">
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+										<div class="swiper-slide">
+											<img src="/img/temp/product.jpg" alt="">
+										</div>
+									</div>
+								</div>
+								<div class="swiper-controls">
+									<div class="swiper-button swiper-button-prev">
+										<svg><use xlink:href="#slider-arrow-left"></use></svg>
+									</div>
+									<div class="swiper-button swiper-button-next">
+										<svg><use xlink:href="#slider-arrow-right"></use></svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section class="block-compare-table">
+					<picture class="bg">
+						<source srcset="img/compare-bg-desktop.jpg" media="min-width: 768px;">
+						<source srcset="img/compare-bg-desktop.jpg" media="max-width: 767px;">
+						<img src="img/compare-bg-desktop.jpg" alt="">
+					</picture>
+					<div class="container">
+						<div class="block-title">
+							Порівняльна таблиця магнітол <span>TEYES</span>
+						</div>
+
+						<div class="table-wrapper">
+							<table>
+								<tr>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+									<td>000,0000</td>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+								</tr>
+								<tr>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+									<td>000,0000</td>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+								</tr>
+								<tr>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+									<td>000,0000</td>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+								</tr>
+								<tr>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+									<td>000,0000</td>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+								</tr>
+								<tr>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+									<td>000,0000</td>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+								</tr>
+								<tr>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+									<td>000,0000</td>
+									<td>Lorem Ipsum Ipsum Lerom</td>
+								</tr>
+							</table>
+						</div>
+
+						<button class="btn">
+							Записатись на встановлення
+						</button>
+					</div>
+				</section>
+
+				<section class="block-callback">
+					<div class="container">
+						<div class="block-title">
+							Форма зворотнього зв’язку
+						</div>
+						<div class="annotation">
+							Розрахуємо ціну на вставноелння магнітоли для Вашого автомобіля швидко та безкоштовно!
+						</div>
+
+						<form action="/">
+							<div class="input-wrapper">
+								<input type="text" class="input" placeholder="Модель авто" id="auto-model">
+								<label for="#auto-model" class="input-label">Модель авто</label>
+							</div>
+							<div class="input-wrapper">
+								<input type="text" class="input" placeholder="Рік виготовлення" id="manufacture-year">
+								<label for="#manufacture-year" class="input-label">Рік виготовлення</label>
+							</div>
+							<div class="input-wrapper">
+								<input type="text" class="input" placeholder="Номер телефону*" id="user-phone" required>
+								<label for="#user-phone" class="input-label">Номер телефону</label>
+							</div>
+							<div class="input-wrapper">
+								<input type="text" class="input" placeholder="Ваше ім’я" id="user-name">
+								<label for="#user-name" class="input-label">Ваше ім’я</label>
+							</div>
+							<label class="checkbox-label">
+								<input type="checkbox" checked hidden>
+								<span class="checkbox-box"></span>
+								<span class="checkbox-text">
+									Я погоджуюсь з <a href="/" target="_blank">Політиками</a> сайту
+								</span>
+							</label>
+
+							<button class="btn">Ок</button>
+						</form>
+					</div>
+				</section>
+			</main>
+			<!-- end my html -->
+
+			<!-- parent footer -->
+			<footer>
+				<div class="container">
+					<div class="logo"><img src="https://cardream.in.ua/data/img/icons/logo.svg"></div>
+					<div class="contact-info">
+						<div>
+							<a href="tel:+380683383140"><img src="https://cardream.in.ua/data/img/icons/1kyivstar.svg"></a> <a href="tel:+380683383140">+38 (068) 338-31-40</a> <a href="viber://chat?number=%2B380683383140"><img src="https://cardream.in.ua/data/img/icons/viber.svg"></a>
+						</div>
+						<div>
+							<a href="tel:+380952594063"><img src="https://cardream.in.ua/data/img/icons/vodafone.svg"></a> <a href="tel:+380952594063">+38 (095) 259-40-63</a> <a href="viber://chat?number=%2B380952594063"><img src="https://cardream.in.ua/data/img/icons/viber.svg"></a>
+						</div>
+					</div>
+					<div class="sm-call">
+						<a href="tel:+380683383140"><img src="https://cardream.in.ua/data/img/icons/1kyivstar.svg"></a> <a href="viber://chat?number=%2B380952594063"><img src="https://cardream.in.ua/data/img/icons/viber.svg"></a> <a href="tel:+380683383140"><img src="https://cardream.in.ua/data/img/icons/vodafone.svg"></a> <a href="viber://chat?number=%2B380952594063"><img src="https://cardream.in.ua/data/img/icons/viber.svg"></a>
+					</div>
+					<div class="map-info">
+						<p class="location">Киев, ул. Ревуцкого, 3</p>
+						<p class="coordinates">График работы: <span>Пн-Сб 9:00-19:00</span></p>
+						<p class="coordinates">2019 - 2023 cardream.in.ua</p>
+						<p class="coordinates">All rights reserved</p>
+					</div>
+					<div class="copyright"></div>
+				</div>
+				<div class="politik-use">
+					<a href="https://cardream.in.ua/ru/privacy-policy/" target="_blank">Политика конфиденциальности</a> <a href="https://cardream.in.ua/ru/cookie-policy/" target="_blank">Использование Cookie</a>
+				</div>
+			</footer>
+
+			<!-- icons sprite -->
+			<svg fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+				<symbol id="slider-arrow-left" viewBox="0 0 33 16">
+					<path d="M0.292893 8.70711C-0.0976311 8.31658 -0.0976311 7.68342 0.292893 7.29289L6.65685 0.928932C7.04738 0.538408 7.68054 0.538408 8.07107 0.928932C8.46159 1.31946 8.46159 1.95262 8.07107 2.34315L2.41421 8L8.07107 13.6569C8.46159 14.0474 8.46159 14.6805 8.07107 15.0711C7.68054 15.4616 7.04738 15.4616 6.65685 15.0711L0.292893 8.70711ZM33 9H1V7H33V9Z" fill="currentColor"/>
+				</symbol>
+
+				<symbol id="slider-arrow-right" viewBox="0 0 33 16">
+					<path d="M32.7071 8.70711C33.0976 8.31658 33.0976 7.68342 32.7071 7.29289L26.3431 0.928932C25.9526 0.538408 25.3195 0.538408 24.9289 0.928932C24.5384 1.31946 24.5384 1.95262 24.9289 2.34315L30.5858 8L24.9289 13.6569C24.5384 14.0474 24.5384 14.6805 24.9289 15.0711C25.3195 15.4616 25.9526 15.4616 26.3431 15.0711L32.7071 8.70711ZM0 9H32V7H0V9Z" fill="currentColor"/>
+				</symbol>
+			</svg>
+		</div>
+
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
